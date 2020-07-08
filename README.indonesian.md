@@ -1,6 +1,6 @@
 [✔]: assets/images/checkbox-small-blue.png
 
-# Node.js Praktik Terbaik
+# Praktik Terbaik untuk Node.Js
 
 <h1 align="center">
   <img src="assets/images/banner-2.jpg" alt="Node.js Best Practices">
@@ -26,7 +26,7 @@ Read in a different language: [![CN](/assets/flags/CN.png)**CN**](/README.chines
 
 # Latest Best Practices and News
 
-- **:tada: Node.js best practices reached 40k stars**: Thank you to each and every contributor who helped turning this project into what it is today! We've got lots of plans for the time ahead, as we expand our ever-growing list of Node.js best practices even further.
+- **:tada: Node.js best practices reached 40k stars**: Terima kasih kepada setiap kontributor yang telah membuat proyek ini menjadi besar seperti sekarang! Kami memiliki banyak rencana untuk kedepannya untuk praktik-praktik terbaik Node.js yang lebih jauh lagi.
 
 - **:rocket: Two New Best Practices**: We've been working hard on two new best practices, a section about [using npm ci](https://github.com/goldbergyoni/nodebestpractices#-519-install-your-packages-with-npm-ci) to preview the dependency state in production environments and another on [testing your middlewares in isolation](https://github.com/goldbergyoni/nodebestpractices#-413-test-your-middlewares-in-isolation)
 
@@ -45,9 +45,9 @@ Read in a different language: [![CN](/assets/flags/CN.png)**CN**](/README.chines
 <br/><br/>
 
 ## Table of Contents
-
-1. [Project Structure Practices (5)](#1-project-structure-practices)
-2. [Error Handling Practices (11) ](#2-error-handling-practices)
+ 
+1. [Praktik untuk pembuatan Struktur/Kerangka Proyek (5)](#1-project-structure-practices)
+2. [Praktik untuk mengatasi Error (11) ](#2-error-handling-practices)
 3. [Code Style Practices (12) ](#3-code-style-practices)
 4. [Testing And Overall Quality Practices (13) ](#4-testing-and-overall-quality-practices)
 5. [Going To Production Practices (19) ](#5-going-to-production-practices)
