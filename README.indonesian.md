@@ -14,33 +14,33 @@
 
 <br/>
 
-[![nodepractices](/assets/images/twitter-s.png)](https://twitter.com/nodepractices/) **Follow us on Twitter!** [**@nodepractices**](https://twitter.com/nodepractices/)
+[![nodepractices](/assets/images/twitter-s.png)](https://twitter.com/nodepractices/) **Ikuti kami di Twitter!** [**@nodepractices**](https://twitter.com/nodepractices/)
 
 <br/>
 
-Read in a different language: [![CN](/assets/flags/CN.png)**CN**](/README.chinese.md), [![BR](/assets/flags/BR.png)**BR**](/README.brazilian-portuguese.md), [![RU](/assets/flags/RU.png)**RU**](/README.russian.md), [![PL](/assets/flags/PL.png)**PL**](/README.polish.md) [(![ES](/assets/flags/ES.png)**ES**, ![FR](/assets/flags/FR.png)**FR**, ![HE](/assets/flags/HE.png)**HE**, ![KR](/assets/flags/KR.png)**KR** and ![TR](/assets/flags/TR.png)**TR** in progress!)](#translations)
+Baca Dalam Bahasa yang berbeda: [![CN](/assets/flags/CN.png)**CN**](/README.chinese.md), [![BR](/assets/flags/BR.png)**BR**](/README.brazilian-portuguese.md), [![RU](/assets/flags/RU.png)**RU**](/README.russian.md), [![PL](/assets/flags/PL.png)**PL**](/README.polish.md) [(![ES](/assets/flags/ES.png)**ES**, ![FR](/assets/flags/FR.png)**FR**, ![HE](/assets/flags/HE.png)**HE**, ![KR](/assets/flags/KR.png)**KR** and ![TR](/assets/flags/TR.png)**TR** dalam pengembangan!)](#translations)
 
 <br/>
 
-###### Built and maintained by our [Steering Committee](#steering-committee) and [Collaborators](#collaborators)
+###### Dibuat dan dikelola oleh [Steering Committee](#steering-committee) dan [Collaborators](#collaborators)
 
-# Latest Best Practices and News
+# Berita dan Praktik Terbaik Terbaru
 
-- **:tada: Node.js best practices reached 40k stars**: Terima kasih kepada setiap kontributor yang telah membuat proyek ini menjadi besar seperti sekarang! Kami memiliki banyak rencana untuk kedepannya untuk praktik-praktik terbaik Node.js yang lebih jauh lagi.
+- **:tada: Project "Praktik Terbaik Node.Js" telah mencapai 40rb bintang**: Terima kasih kepada setiap kontributor yang telah membuat proyek ini menjadi besar seperti sekarang! Kami memiliki banyak rencana untuk kedepannya untuk praktik-praktik terbaik Node.js yang lebih jauh lagi.
 
-- **:rocket: Two New Best Practices**: We've been working hard on two new best practices, a section about [using npm ci](https://github.com/goldbergyoni/nodebestpractices#-519-install-your-packages-with-npm-ci) to preview the dependency state in production environments and another on [testing your middlewares in isolation](https://github.com/goldbergyoni/nodebestpractices#-413-test-your-middlewares-in-isolation)
+- **:rocket: Dua Praktik Terbaik terbaru**: Kami telah bekerja keras kepada dua praktik terbaik node.js yang terbaru, sebuah bagian mengenai [menggunakan npm ci](https://github.com/goldbergyoni/nodebestpractices#-519-install-your-packages-with-npm-ci) to preview the dependency state in production environments and another on [testing your middlewares in isolation](https://github.com/goldbergyoni/nodebestpractices#-413-test-your-middlewares-in-isolation)
 
-- **:whale: Node.js + Docker best practices**: We've opened a [call for ideas](https://github.com/goldbergyoni/nodebestpractices/issues/620) to collect best practices related to running dockerized Node.js applications. If you've got any further best practices, don't hesitate to join the conversation!
+- **:whale: Praktik Terbaik untuk Node.js + Docker**: We've opened a [call for ideas](https://github.com/goldbergyoni/nodebestpractices/issues/620) to collect best practices related to running dockerized Node.js applications. If you've got any further best practices, don't hesitate to join the conversation!
 
 <br/><br/>
 
-# Welcome! 3 Things You Ought To Know First
+# Selamat Datang! Ada 3 hal yang harus kamu tahu lebih dahulu
 
-**1. You are, in fact, reading dozens of the best Node.js articles -** this repository is a summary and curation of the top-ranked content on Node.js best practices, as well as content written here by collaborators
+**1. Anda Sedang membaca Rangkuman dari puluhan artikel mengenai praktik Node.Js Terbaik -** this repository is a summary and curation of the top-ranked content on Node.js best practices, as well as content written here by collaborators
 
 **2. It is the largest compilation, and it is growing every week -** currently, more than 80 best practices, style guides, and architectural tips are presented. New issues and pull requests are created every day to keep this live book updated. We'd love to see you contributing here, whether that is fixing code mistakes, helping with translations, or suggesting brilliant new ideas. See our [writing guidelines here](/.operations/writing-guidelines.md)
 
-**3. Most best practices have additional info -** most bullets include a **🔗Read More** link that expands on the practice with code examples, quotes from selected blogs and more information
+**3. Setiap Praktik Terbaik memiliki informasi tambahan -** most bullets include a **🔗Read More** link that expands on the practice with code examples, quotes from selected blogs and more information
 
 <br/><br/>
 
@@ -70,7 +70,8 @@ Read in a different language: [![CN](/assets/flags/CN.png)**CN**](/README.chines
 
 ## ![✔] 1.2 Layer your components, keep Express within its boundaries
 
-**TL;DR:** Each component should contain 'layers' - a dedicated object for the web, logic, and data access code. This not only draws a clean separation of concerns but also significantly eases mocking and testing the system. Though this is a very common pattern, API developers tend to mix layers by passing the web layer objects (Express req, res) to business logic and data layers - this makes your application dependent on and accessible by Express only
+**TL;DR:** Setiap komponen akan memiliki 'lapisan' - sebuah obyek yang didedikasikan untuk web, logika, dan ..
+Each component should contain 'layers' - a dedicated object for the web, logic, and data access code. This not only draws a clean separation of concerns but also significantly eases mocking and testing the system. Though this is a very common pattern, API developers tend to mix layers by passing the web layer objects (Express req, res) to business logic and data layers - this makes your application dependent on and accessible by Express only
 
 **Otherwise:** App that mixes web objects with other layers cannot be accessed by testing code, CRON jobs, and other non-Express callers
 
@@ -108,7 +109,7 @@ Read in a different language: [![CN](/assets/flags/CN.png)**CN**](/README.chines
 
 <br/><br/><br/>
 
-<p align="right"><a href="#table-of-contents">⬆ Return to top</a></p>
+<p align="right"><a href="#table-of-contents">⬆ Kembali Keatas</a></p>
 
 # `2. Error Handling Practices`
 
@@ -132,7 +133,7 @@ Read in a different language: [![CN](/assets/flags/CN.png)**CN**](/README.chines
 
 <br/><br/>
 
-## ![✔] 2.3 Distinguish operational vs programmer errors
+## ![✔] 2.3 Perbedaan Terhadap operasional dan programmer error
 
 **TL;DR:** Operational errors (e.g. API received an invalid input) refer to known cases where the error impact is fully understood and can be handled thoughtfully. On the other hand, programmer error (e.g. trying to read undefined variable) refers to unknown code failures that dictate to gracefully restart the application
 
@@ -174,7 +175,7 @@ Read in a different language: [![CN](/assets/flags/CN.png)**CN**](/README.chines
 
 ## ![✔] 2.7 Use a mature logger to increase error visibility
 
-**TL;DR:** A set of mature logging tools like [Winston](https://www.npmjs.com/package/winston), [Bunyan](https://github.com/trentm/node-bunyan), [Log4js](http://stritti.github.io/log4js/) or [Pino](https://github.com/pinojs/pino), will speed-up error discovery and understanding. So forget about console.log
+**TL;DR:** A set of mature logging tools like [Pino](https://github.com/pinojs/pino) or [Log4js](https://www.npmjs.com/package/log4js), will speed-up error discovery and understanding. So forget about console.log
 
 **Otherwise:** Skimming through console.logs or manually through messy text file without querying tools or a decent log viewer might keep you busy at work until late
 
@@ -257,7 +258,8 @@ function someFunction() {
 }
 
 // Avoid
-function someFunction() {
+function someFunction()
+{
   // code block
 }
 ```
@@ -334,7 +336,7 @@ class SomeClassExample {}
 
 // for const names we use the const keyword and lowerCamelCase
 const config = {
-  key: "value",
+  key: "value"
 };
 
 // for variables and functions names we use lowerCamelCase
@@ -992,7 +994,7 @@ All statements above will return false if used with `===`
 
 **TL;DR:** Any step in the development chain should be protected with MFA (multi-factor authentication), npm/Yarn are a sweet opportunity for attackers who can get their hands on some developer's password. Using developer credentials, attackers can inject malicious code into libraries that are widely installed across projects and services. Maybe even across the web if published in public. Enabling 2-factor-authentication in npm leaves almost zero chances for attackers to alter your package code.
 
-**Otherwise:** [Have you heard about the eslint developer who's password was hijacked?](https://medium.com/@oprearocks/eslint-backdoor-what-it-is-and-how-to-fix-the-issue-221f58f1a8c8)
+**Otherwise:** [Have you heard about the eslint developer whose password was hijacked?](https://medium.com/@oprearocks/eslint-backdoor-what-it-is-and-how-to-fix-the-issue-221f58f1a8c8)
 
 <br/><br/>
 
@@ -1045,7 +1047,7 @@ All statements above will return false if used with `===`
 
 # `7. Draft: Performance Best Practices`
 
-## Our contributors are working on this section. [Would you like to join?](https://github.com/i0natan/nodebestpractices/issues/256)
+## Our contributors are working on this section. [Would you like to join?](https://github.com/goldbergyoni/nodebestpractices/issues/256)
 
 <br/><br/>
 
@@ -1072,7 +1074,7 @@ Bear in mind that with the introduction of the new V8 engine alongside the new E
 
 # Milestones
 
-To maintain this guide and keep it up to date, we are constantly updating and improving the guidelines and best practices with the help of the community. You can follow our [milestones](https://github.com/i0natan/nodebestpractices/milestones) and join the working groups if you want to contribute to this project
+To maintain this guide and keep it up to date, we are constantly updating and improving the guidelines and best practices with the help of the community. You can follow our [milestones](https://github.com/goldbergyoni/nodebestpractices/milestones) and join the working groups if you want to contribute to this project
 
 <br/>
 
@@ -1089,21 +1091,21 @@ All translations are contributed by the community. We will be happy to get any h
 
 ### Translations in progress
 
-- ![FR](/assets/flags/FR.png) [French](https://github.com/gaspaonrocks/nodebestpractices/blob/french-translation/README.french.md) ([Discussion](https://github.com/i0natan/nodebestpractices/issues/129))
-- ![HE](/assets/flags/HE.png) Hebrew ([Discussion](https://github.com/i0natan/nodebestpractices/issues/156))
-- ![KR](/assets/flags/KR.png) [Korean](README.korean.md) - Courtesy of [Sangbeom Han](https://github.com/uronly14me) ([Discussion](https://github.com/i0natan/nodebestpractices/issues/94))
-- ![ES](/assets/flags/ES.png) [Spanish](https://github.com/i0natan/nodebestpractices/blob/spanish-translation/README.spanish.md) ([Discussion](https://github.com/i0natan/nodebestpractices/issues/95))
-- ![TR](/assets/flags/TR.png) Turkish ([Discussion](https://github.com/i0natan/nodebestpractices/issues/139))
+- ![FR](/assets/flags/FR.png) [French](https://github.com/gaspaonrocks/nodebestpractices/blob/french-translation/README.french.md) ([Discussion](https://github.com/goldbergyoni/nodebestpractices/issues/129))
+- ![HE](/assets/flags/HE.png) Hebrew ([Discussion](https://github.com/goldbergyoni/nodebestpractices/issues/156))
+- ![KR](/assets/flags/KR.png) [Korean](README.korean.md) - Courtesy of [Sangbeom Han](https://github.com/uronly14me) ([Discussion](https://github.com/goldbergyoni/nodebestpractices/issues/94))
+- ![ES](/assets/flags/ES.png) [Spanish](https://github.com/goldbergyoni/nodebestpractices/blob/spanish-translation/README.spanish.md) ([Discussion](https://github.com/goldbergyoni/nodebestpractices/issues/95))
+- ![TR](/assets/flags/TR.png) Turkish ([Discussion](https://github.com/goldbergyoni/nodebestpractices/issues/139))
 
 <br/><br/>
 
 ## Steering Committee
 
-Meet the steering committee members - the people who work together to provide guidance and future direction to the project. In addition, each member of the committee leads a project tracked under our [Github projects](https://github.com/i0natan/nodebestpractices/projects).
+Meet the steering committee members - the people who work together to provide guidance and future direction to the project. In addition, each member of the committee leads a project tracked under our [Github projects](https://github.com/goldbergyoni/nodebestpractices/projects).
 
 <img align="left" width="100" height="100" src="assets/images/members/yoni.png">
 
-[Yoni Goldberg](https://github.com/i0natan)
+[Yoni Goldberg](https://github.com/goldbergyoni)
 <a href="https://twitter.com/goldbergyoni"><img src="assets/images/twitter-s.png" width="16" height="16"></img></a>
 <a href="https://goldbergyoni.com"><img src="assets/images/www.png" width="16" height="16"></img></a>
 
@@ -1147,9 +1149,9 @@ Thank you to all our collaborators! 🙏
 
 Our collaborators are members who are contributing to the repository on a regular basis, through suggesting new best practices, triaging issues, reviewing pull requests and more. If you are interested in helping us guide thousands of people to craft better Node.js applications, please read our [contributor guidelines](/.operations/CONTRIBUTING.md) 🎉
 
-| <a href="https://github.com/idori" target="_blank"><img src="assets/images/members/ido.png" width="75" height="75"></a> | <a href="https://github.com/TheHollidayInn" target="_blank"><img src="assets/images/members/keith.png" width="75" height="75"></a> | <a href="https://github.com/kevynb" target="_blank"><img src="assets/images/members/kevyn.png" width="59" height="59"></a> |
-| :---------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------: |
-|                                    [Ido Richter (Founder)](https://github.com/idori)                                    |                                        [Keith Holliday](https://github.com/TheHollidayInn)                                         |                                         [Kevyn Bruyere](https://github.com/kevynb)                                         |
+| <a href="https://github.com/idori" target="_blank"><img src="assets/images/members/ido.png" width="75" height="75"></a> | <a href="https://github.com/TheHollidayInn" target="_blank"><img src="assets/images/members/keith.png" width="75" height="75"></a> |<a href="https://github.com/kevynb" target="_blank"><img src="assets/images/members/kevyn.png" width="59" height="59"></a> |
+| :---------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------: |:--------------------------------------------------------------------------------------------------------------------------------: |
+|                                    [Ido Richter (Founder)](https://github.com/idori)                                    |                                        [Keith Holliday](https://github.com/TheHollidayInn)                                         |                                       [Kevyn Bruyere](https://github.com/kevynb)                                         |
 
 ### Past collaborators
 
@@ -1160,7 +1162,6 @@ Our collaborators are members who are contributing to the repository on a regula
 <br/>
 
 ## Contributing
-
 If you've ever wanted to contribute to open source, now is your chance! See the [contributing docs](.operations/CONTRIBUTING.md) for more information.
 
 ## Contributors ✨
@@ -1301,10 +1302,16 @@ Thanks goes to these wonderful people who have contributed to this repository!
     <td align="center"><a href="https://github.com/SerzN1"><img src="https://avatars0.githubusercontent.com/u/2534649?v=4" width="100px;" alt=""/><br /><sub><b>Serge</b></sub></a><br /><a href="#content-SerzN1" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/keyrwinz"><img src="https://avatars3.githubusercontent.com/u/21241761?v=4" width="100px;" alt=""/><br /><sub><b>keyrwinz</b></sub></a><br /><a href="#content-keyrwinz" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/nDmitry"><img src="https://avatars0.githubusercontent.com/u/2134568?v=4" width="100px;" alt=""/><br /><sub><b>Dmitry Nikitenko</b></sub></a><br /><a href="#content-nDmitry" title="Content">🖋</a></td>
+    <td align="center"><a href="https://bushuai.cc"><img src="https://avatars0.githubusercontent.com/u/1875256?v=4" width="100px;" alt=""/><br /><sub><b>bushuai</b></sub></a><br /><a href="https://github.com/goldbergyoni/nodebestpractices/pulls?q=is%3Apr+reviewed-by%3Abushuai" title="Reviewed Pull Requests">👀</a> <a href="#content-bushuai" title="Content">🖋</a></td>
+    <td align="center"><a href="https://stackoverflow.com/users/1348195/benjamin-gruenbaum"><img src="https://avatars2.githubusercontent.com/u/1315533?v=4" width="100px;" alt=""/><br /><sub><b>Benjamin Gruenbaum</b></sub></a><br /><a href="#content-benjamingr" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/byeze"><img src="https://avatars1.githubusercontent.com/u/7424138?v=4" width="100px;" alt=""/><br /><sub><b>Ezequiel</b></sub></a><br /><a href="#translation-byeze" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/juaoose"><img src="https://avatars3.githubusercontent.com/u/994594?v=4" width="100px;" alt=""/><br /><sub><b>Juan José Rodríguez</b></sub></a><br /><a href="#translation-juaoose" title="Translation">🌍</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/OrBin"><img src="https://avatars1.githubusercontent.com/u/6897234?v=4" width="100px;" alt=""/><br /><sub><b>Or Bin</b></sub></a><br /><a href="#content-OrBin" title="Content">🖋</a></td>
   </tr>
 </table>
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
-
 <!-- ALL-CONTRIBUTORS-LIST:END -->
