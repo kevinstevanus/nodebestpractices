@@ -38,7 +38,7 @@ Baca Dalam Bahasa yang berbeda: [![CN](/assets/flags/CN.png)**CN**](/README.chin
 
 **1. Anda Sedang membaca Rangkuman dari puluhan artikel mengenai praktik Node.Js Terbaik -** this repository is a summary and curation of the top-ranked content on Node.js best practices, as well as content written here by collaborators
 
-**2. It is the largest compilation, and it is growing every week -** currently, more than 80 best practices, style guides, and architectural tips are presented. New issues and pull requests are created every day to keep this live book updated. We'd love to see you contributing here, whether that is fixing code mistakes, helping with translations, or suggesting brilliant new ideas. See our [writing guidelines here](/.operations/writing-guidelines.md)
+**2. It is the largest compilation, and it is growing every week -** Sampai sekarang ini terdapat lebih dari 80 Praktik Terbaik Node.js,  panduan styling, dan tips pengunaan arsitektur program dijelaskan disini. Issues dan pull request dibuat setiap hari agar buku panduan ini tetap up to date. Kami sangat senang bila Anda memutuskan untuk memberi kontribusi disini, seperti memperbaiki kesalahan kode, membantu membuat terjemahan, atau memberikan ide yang bagus. Lihat pada [Panduan Penulis Disini](/.operations/writing-guidelines.md)
 
 **3. Setiap Praktik Terbaik memiliki informasi tambahan -** most bullets include a **🔗Read More** link that expands on the practice with code examples, quotes from selected blogs and more information
 
@@ -249,7 +249,7 @@ Each component should contain 'layers' - a dedicated object for the web, logic, 
 
 **TL;DR:** The opening curly braces of a code block should be on the same line as the opening statement
 
-### Code Example
+### Contoh Kode
 
 ```javascript
 // Do
@@ -266,7 +266,7 @@ function someFunction()
 
 **Otherwise:** Deferring from this best practice might lead to unexpected results, as seen in the StackOverflow thread below:
 
-🔗 [**Read more:** "Why do results vary based on curly brace placement?" (StackOverflow)](https://stackoverflow.com/questions/3641519/why-does-a-results-vary-based-on-curly-brace-placement)
+🔗 [**Baca Lebih Lanjut:** "Why do results vary based on curly brace placement?" (StackOverflow)](https://stackoverflow.com/questions/3641519/why-does-a-results-vary-based-on-curly-brace-placement)
 
 <br/><br/>
 
